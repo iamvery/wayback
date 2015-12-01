@@ -1,0 +1,207 @@
+<html>
+
+<head>
+<STYLE TYPE="text/css">
+<!--
+.leftNav {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.leftNav:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+-->
+</STYLE>
+
+<script language="javascript">
+var win = null;
+function NewWindow(mypage,myname,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings =
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+win = window.open(mypage,myname,settings)
+}
+
+</script>
+
+<script language=JavaScript>
+<!--
+
+var message="Sorry but we do not allow people to steal our stuff. Thank you!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+// --> 
+</script>
+
+
+<title>Welcome to DSA*</title>
+<SCRIPT LANGUAGE="JavaScript">
+   <!--
+      // Following COPYRIGHT ©1997  Dennis & Family.  All Rights Reserved.
+           function snapIn(jumpSpaces,position) { var msg = "Welcome to DSA*"; var out = ""; for (var i=0; i<position; i++) { out += msg.charAt(i) } for (i=1;i<jumpSpaces;i++) { out += " " } out += msg.charAt(position); window.status = out; if (jumpSpaces <= 1) { position++; if (msg.charAt(position) == ' ') { position++ } jumpSpaces = 100-position } else if (jumpSpaces >  3) { jumpSpaces *= .09 } else { jumpSpaces-- } if (position != msg.length) { var cmd = "snapIn(" + jumpSpaces + "," + position + ")"; window.setTimeout(cmd,10); } return true }
+   //-->
+
+</SCRIPT>
+<SCRIPT language="javascript">
+<!--
+var marqueewidth=120
+var marqueeheight=210
+var speed=3
+var marqueecontents="<FONT SIZE=2 color=#666666 Face='Arial'><div align='center'><b>-News-</b></div><br>We will be having weekly practices every Thursday night @ 9pm Eastern Standard Time. They will be held in \"Official DSA* Server\". Please try to make all practices."
+function regenerate(){
+window.location.reload()
+}
+function regenerate2(){
+if (document.layers){
+setTimeout("window.onresize=regenerate",450)
+intializemarquee()
+}
+}
+function intializemarquee(){
+document.cmarquee01.document.cmarquee02.document.write(marqueecontents)
+document.cmarquee01.document.cmarquee02.document.close()
+thelength=document.cmarquee01.document.cmarquee02.document.height
+scrollit()
+}
+function scrollit(){
+if (document.cmarquee01.document.cmarquee02.top>=thelength*(-1)){
+document.cmarquee01.document.cmarquee02.top-=speed
+setTimeout("scrollit()",100)
+}
+else{
+document.cmarquee01.document.cmarquee02.top=marqueeheight
+scrollit()
+}
+}
+window.onload=regenerate2
+// -->
+</SCRIPT>
+<STYLE type=text/css>#cmarquee02 {
+	HEIGHT: 19px; LEFT: 0px; POSITION: absolute; TOP: 0px; VISIBILITY: visible; WIDTH: 4px
+}
+</STYLE>
+
+<STYLE>
+BODY     {scrollbar-3dlight-color:#000000;
+          scrollbar-arrow-color:#000000;
+          scrollbar-base-color:#000000;
+          scrollbar-darkshadow-color:#000000;
+          scrollbar-face-color:#3E0000;
+          scrollbar-highlight-color:#000000;
+          scrollbar-shadow-color:#000000}
+</STYLE>
+
+<meta name="description" content="World's Most Dominant Meltdown Clan">
+<meta name="keywords" content="dsa, dark, dark spectrum, dark spectrum assassins, assassins, assasins, dsa*, darkspectrumassassins, meltdown, meltdown hell, clan, tribes, starsiege, starseige, tribal>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+</head>
+
+<body bgcolor="#333333" onLoad="snapIn(50,0)">
+
+<div align="center">
+  <center>
+  <table border="3" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="801" height="457" background="site_bg.jpg" bordercolor="#000000">
+    <tr>
+      <td width="165" height="108" valign="top">
+      <p align="center">
+      <p align="left">
+      &nbsp;</td>
+      <td width="471" height="108" valign="top">
+      &nbsp;</td>
+      <td width="154" height="108" valign="top" colspan="2">
+      &nbsp;</td>
+    </tr>
+    <tr>
+      <td width="165" height="100" valign="top">
+      &nbsp;</td>
+      <td width="471" height="344" valign="top" rowspan="4">
+      <p align="center">
+      <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="489" HEIGHT="90" id="button3" ALIGN="">
+ <PARAM NAME=movie VALUE="button3.swf"> <param name="wmode" value="transparent"><PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> 
+        <EMBED src="button3.swf" quality=high bgcolor=#FFFFFF  WIDTH="200" HEIGHT="400" NAME="button3" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>
+      <iframe SRC="nphp/news.php" ALLOWTRANSPARENCY="true" name="I1" width="489" height="550" border="0" frameborder="0">
+      Your browser does not support inline frames or is currently configured not to display inline frames.</iframe>
+      </p>
+      </td>
+      <td width="154" height="101" valign="bottom" colspan="2">
+      <p align="center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="165" height="211" valign="top">
+      <p align="center">
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ WIDTH="134" HEIGHT="323" id="links" ALIGN="left">
+ <PARAM NAME=movie VALUE="links.swf"> <param name="wmode" value="transparent"><PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> 
+  <EMBED src="links.swf" quality=high bgcolor=#FFFFFF  WIDTH="160" HEIGHT="400" NAME="links" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>
+      </td>
+      <td width="20" height="213" valign="top">
+      &nbsp;</td>
+      <td width="131" height="213" valign="bottom">
+      <p align="right">&nbsp;&nbsp;
+      <SCRIPT language=JavaScript1.2 type=""><!--
+if (document.all)
+	document.write('<marquee direction="up" scrollAmount='+speed+' style="width:'+marqueewidth+';height:'+marqueeheight+'">'+marqueecontents+'</marquee>')
+// -->
+								</SCRIPT>
+      <img border="0" src="record.jpg" width="135" height="135"></td>
+    </tr>
+    <tr>
+      <td width="165" height="197" valign="top">
+      <p align="left">
+      </td>
+      <td width="154" height="45" valign="bottom" colspan="2" rowspan="2">
+      <p align="right">
+      &nbsp;</td>
+    </tr>
+    <tr>
+      <td width="165" height="45" valign="bottom">
+      <!-- Gostats.com web hit code. Please do not change this-->
+<a href="http://gostats.com/gogi/viewstats.pl?mn=demonhuntersX"target="_top">
+<img src="http://gostats.com/gogi/count.pl?mn=demonhuntersX" border=0></a></td>
+      </tr>
+    </table>
+  </center>
+</div>
+
+<p align="center"><font size="2">2003 © ¿r? web designs. All Rights Reserved.<br>
+&nbsp;</font></p>
+
+</body>
+
+</html>
